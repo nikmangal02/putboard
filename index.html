@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+    <style>
+        .nav_color
+        {
+            background-color: transparent;
+            border-color: transparent;
+        }
+        .backgroundImage
+        {
+            background-image: url("img/background.jpg");
+            max-width: 100%;
+            height: 500px;
+        }
+        .attr
+        {
+            font-size: x-large;
+            font-family: lato;
+            color: rgba(255, 255, 255, 0);
+            font-weight: 100;
+
+        }
+
+
+            .mainTitle
+            {
+                padding-left: 480px;
+                padding-top: auto;
+                font-weight: 900;
+                color: black;
+                max-width: 100%;
+                font-family: lato;
+            }
+        .cards
+        {
+            padding-top: 45px;
+        }
+.cards_size
+{
+    width: 220px;
+    height:210px;
+    margin-top: 70px;
+}
+        /*h4,h2
+        {
+            color: white;
+        }*/
+        h4
+        {
+            margin-right: 150px;
+            /*text-align: center;*/
+        }
+        #card1
+        {
+            left:75px;
+        }
+        #card2
+        {
+            left: 89px;
+        }
+        #card3
+        {
+            left:105px;
+        }
+        #card4
+        {
+            left: 125px;
+        }
+        #card5
+        {
+margin-left:140px;
+
+        }
+        .div2
+        {
+         background-color: #2aabd2;
+            max-width: 100%;
+            height: 200px;
+        }
+/*.div2 h2
+{
+    font-size: x-large;
+    margin-top: 45px;
+}*/
+        .anchor
+        {
+            text-align: center;
+        }
+        button
+        {
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            background-color: black;
+            width: 200px;
+            height: 50px;
+            color: white;
+            font-weight: 200;
+            margin-right: 480px;
+            border-color: transparent;
+            margin-top: 20px;
+        }
+        .div3
+        {
+            height: 340px;
+            max-width: 100%;
+        }
+        .curate
+        {
+            margin-top: 120px;
+        }
+        .board
+        {
+            bottom: 10px;
+        }
+        .board_img
+        {
+            margin-top:-150px;
+        }
+        .search_img
+        {
+            margin-top: -110px;
+        }
+        .div4
+        {
+            height: 340px;
+            max-width: 100%;
+        }
+        .curate_img
+        {
+            margin-bottom: 10px;
+        }
+        .create_board
+        {
+            margin-left: 250px;
+            margin-top: 90px;
+            color: white;
+        }
+        .div5
+        {
+            background-color: #2aabd2;
+            max-width: 100%;
+            height: 336px;
+        }
+        .create_img
+        {
+            float: right;
+            margin-top: 50px;
+            margin-right: -275px;
+        }
+
+        @media screen and (max-width: 750px)
+        {
+            .cards_size
+            {
+                visibility: hidden;
+            }
+        }
+        /* Extra small devices (phones, less than 768px) */
+        /* No media query since this is the default in Bootstrap */
+
+        /* Small devices (tablets, 768px and up) */
+        @media screen and (max-width: 768px)
+        {
+            
+        }
+
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width:767px) and (max-width: 992px)
+        {
+
+        }
+
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: 993px) and (max-width: 1200px)
+        {
+
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row backgroundImage">
+        <div class="row">
+            <div class="col-md-11  col-xs-offset-1">
+                <nav class="navbar navbar-default nav_color" data-offset="17" >
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><span style="color: white;font-family: lato;font-weight: 700"> PUTBOARD</span></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right attr">
+                                <li><a href="#"><span style="color: white;font-family: lato">Login</span></a></li>
+                                <li><a href="#"><span style="color: white;font-family: lato">Sign Up</span></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-xs-offset-4">
+                <h2><span style="font-family: lato;font-weight: 800;padding-top: 255px;color: white;position: relative">Put your links in boards</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9 col-xs-offset-3">
+                <h4><span style="color: white">Putboard is a nice way to curate link from all over the web</span></h4>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="col-md-2" id="card1">
+                <img class="cards_size" src="img/cards-top-image.png">
+            </div>
+            <div class="col-md-2" id="card2">
+                <img class="cards_size" src="img/cards-top-image2.png">
+            </div>
+            <div class="col-md-2" id="card3">
+                <img class="cards_size" src="img/cards-top-image.png">
+            </div>
+            <div class="col-md-2" id="card4">
+                <img class="cards_size" src="img/cards-top-image2.png">
+            </div>
+            <div class="col-md-2" id="card5">
+                <img class="cards_size" src="img/cards-top-image.png">
+            </div>
+        </div>
+    </div>
+    <div class="row div2">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-8 col-xs-offset-4">
+                    <h2><span style="color: white">All your link in one simple place</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-xs-offset-4">
+                    <div class="anchor">
+                        <button>GET STARTED</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row div3">
+        <div class="col-md-5 col-xs-offset-1 curate">
+            <h3>Curate your links</h3>
+            <p>
+                Curate all your links at one place and categorise it with<br>
+                tags.you can even search throuh your links based on <br>
+                title and tags.
+            </p>
+        </div>
+        <div class="col-md-5 col-xs-offset-1 curate_img">
+            <img src="img/curate.png">
+        </div>
+    </div>
+    <div class="row div4">
+        <div class="col-md-5 col-xs-offset-1">
+            <h3>Shared with loved ones</h3>
+            <p>
+                You can easily share your board with your loved ones.<br>
+                Puboard gives you options to create the private or<br>
+                public boards.
+            </p>
+        </div>
+        <div class="col-md-5 col-xs-offset-1 board_img">
+            <img src="img/board.PNG">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5 col-xs-offset-1">
+            <h3>Search</h3>
+            <p>
+                Don't worry if you have too many links.You can always<br>
+                search and find what you are looking for.
+            </p>
+        </div>
+        <div class="col-md-5 col-xs-offset-1 search_img">
+            <img src="img/search.png">
+        </div>
+    </div>
+    <div class="div5">
+        <div class="row">
+            <div class="col-md-4 create_board">
+                <h3>Create your first board now</h3>
+                <button>GET STARTED</button>
+            </div>
+            <div class="col-md-8 create_img">
+                <img src="img/screenshot.jpg" class="img_responsive">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
